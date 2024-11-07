@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "Inter";
+  src: url(Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.w-25 {
+  width: 23%;
+}
+body {
+  background-color: #fff;
+  padding: 0 16px;
+  margin: 0;
+}
+header {
+  background: #FFFFFF;
+  border-bottom: 1px solid #E5E5E5
+}
+header ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+header ul a{
+  color: #000000;
+}
+header p{
+  background-color: #FC004A;
+  padding: 8px 41.25px;
+  border-radius: 12px;
+  color:#FFFFFF;
+}
+main{
+  background-image: url(img/set.png);
+  width: 976px;
+  height: 293.66px;
+  border-radius: 15px;
+  margin: 50px 25%;
+}
+.Set{
+  font-family: Inter;
+  font-size: 32.48px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+section .card{
+  box-shadow: 0px 4px 6px -4px #0000001A;
+  box-shadow: 0px 10px 15px -3px #0000001A;
+  height: 391px;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 400px;
+}
+section p{
+  color: #FC004A;
+  font-family: Inter;
+  font-size: 18.28px;
+  text-align: left;
+  padding: 0 10px 0 10px;
+}
+section h3{
+  font-size: 17.66px;
+  font-size: Inter;
+  padding: 0 10px;
+}
+.footer-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo-div{
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+footer{
+  padding: 30px;
+}
+.card13{
+  display: none;
+}
+.card14{
+  display: none;
+}
+header .header-i{
+  display: none;
+}
+section i{
+  color: white;
+  background-color: red;
+  border-radius: 15px;
+  padding: 10px 10px;
+}
+@media (min-width:576px) and (max-width:800px){
+  .main-logo{
+    display: none;
+  }
+  header ul{
+    gap: 20px;
+  }
+  .w-25{
+    width: 30%;
+  }
+  .card4{
+    display: none;
+  }
+  .card12{
+    display: none;
+  }
+  .card8{
+    order: 6;
+  }
+  .card9{
+    order: 1;
+  }
+  .card10{
+    order: 2;
+  }
+  .card11{
+    order: 3;
+  }
+  .card13{
+    display: block;
+    order: 4;
+  }
+  .card14{
+    display: block;
+    order: 5;
+  }
+  main{
+    margin: 50px 1px;
+  }
+}
+@media (max-width:642px){
+  .main-logo{
+    display: none;
+  }
+  header .header-i{
+    display: block;
+  }
+  header ul a{
+    display: none;
+  }
+  .card13{
+    display: block;
+  }
+  .card14{
+    display: block;
+  }
+  .w-25{
+    width: 48%;
+  }
+}
